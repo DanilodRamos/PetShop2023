@@ -1,0 +1,10 @@
+C:\Users\jacka\source\repos\PetShop2023\PetShop2023\bin\Debug\PetShop2023.exe
+C:\Users\jacka\source\repos\PetShop2023\PetShop2023\bin\Debug\PetShop2023.pdb
+C:\Users\jacka\source\repos\PetShop2023\PetShop2023\obj\Debug\PetShop2023.csproj.AssemblyReference.cache
+C:\Users\jacka\source\repos\PetShop2023\PetShop2023\obj\Debug\PetShop2023.Form1.resources
+C:\Users\jacka\source\repos\PetShop2023\PetShop2023\obj\Debug\PetShop2023.Properties.Resources.resources
+C:\Users\jacka\source\repos\PetShop2023\PetShop2023\obj\Debug\PetShop2023.csproj.GenerateResource.cache
+C:\Users\jacka\source\repos\PetShop2023\PetShop2023\obj\Debug\PetShop2023.csproj.CoreCompileInputs.cache
+C:\Users\jacka\source\repos\PetShop2023\PetShop2023\obj\Debug\PetShop2023.exe
+C:\Users\jacka\source\repos\PetShop2023\PetShop2023\obj\Debug\PetShop2023.pdb
+C:\Users\jacka\source\repos\PetShop2023\PetShop2023\obj\Debug\PetShop2023.frmCadCliente.resources
