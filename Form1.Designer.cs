@@ -31,17 +31,17 @@ namespace PetShop2023
         {
             this.PainelLateral = new System.Windows.Forms.Panel();
             this.PainelTopo = new System.Windows.Forms.Panel();
-            this.PanelLateral = new System.Windows.Forms.Panel();
-            this.btnCliente = new System.Windows.Forms.Button();
-            this.btnRaca = new System.Windows.Forms.Button();
-            this.btnAnimal = new System.Windows.Forms.Button();
-            this.btnServicos = new System.Windows.Forms.Button();
-            this.btnAgendamento = new System.Windows.Forms.Button();
-            this.btnInicio = new System.Windows.Forms.Button();
-            this.panelCentral = new System.Windows.Forms.Panel();
-            this.panelSelecao = new System.Windows.Forms.Panel();
             this.btnmin = new System.Windows.Forms.Button();
             this.btnSair = new System.Windows.Forms.Button();
+            this.PanelLateral = new System.Windows.Forms.Panel();
+            this.panelSelecao = new System.Windows.Forms.Panel();
+            this.btnInicio = new System.Windows.Forms.Button();
+            this.btnAgendamento = new System.Windows.Forms.Button();
+            this.btnServicos = new System.Windows.Forms.Button();
+            this.btnAnimal = new System.Windows.Forms.Button();
+            this.btnRaca = new System.Windows.Forms.Button();
+            this.btnCliente = new System.Windows.Forms.Button();
+            this.panelCentral = new System.Windows.Forms.Panel();
             this.PainelTopo.SuspendLayout();
             this.PanelLateral.SuspendLayout();
             this.SuspendLayout();
@@ -49,9 +49,9 @@ namespace PetShop2023
             // PainelLateral
             // 
             this.PainelLateral.Dock = System.Windows.Forms.DockStyle.Right;
-            this.PainelLateral.Location = new System.Drawing.Point(828, 0);
+            this.PainelLateral.Location = new System.Drawing.Point(1018, 0);
             this.PainelLateral.Name = "PainelLateral";
-            this.PainelLateral.Size = new System.Drawing.Size(200, 526);
+            this.PainelLateral.Size = new System.Drawing.Size(10, 526);
             this.PainelLateral.TabIndex = 0;
             // 
             // PainelTopo
@@ -63,9 +63,35 @@ namespace PetShop2023
             this.PainelTopo.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.PainelTopo.Location = new System.Drawing.Point(0, 0);
             this.PainelTopo.Name = "PainelTopo";
-            this.PainelTopo.Size = new System.Drawing.Size(828, 46);
+            this.PainelTopo.Size = new System.Drawing.Size(1018, 33);
             this.PainelTopo.TabIndex = 1;
             this.PainelTopo.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // btnmin
+            // 
+            this.btnmin.BackgroundImage = global::PetShop2023.Properties.Resources.OIP__1_;
+            this.btnmin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnmin.FlatAppearance.BorderSize = 0;
+            this.btnmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnmin.Location = new System.Drawing.Point(932, 4);
+            this.btnmin.Name = "btnmin";
+            this.btnmin.Size = new System.Drawing.Size(39, 27);
+            this.btnmin.TabIndex = 3;
+            this.btnmin.UseVisualStyleBackColor = true;
+            this.btnmin.Click += new System.EventHandler(this.btnmin_Click);
+            // 
+            // btnSair
+            // 
+            this.btnSair.BackgroundImage = global::PetShop2023.Properties.Resources.th;
+            this.btnSair.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnSair.FlatAppearance.BorderSize = 0;
+            this.btnSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSair.Location = new System.Drawing.Point(977, 4);
+            this.btnSair.Name = "btnSair";
+            this.btnSair.Size = new System.Drawing.Size(39, 27);
+            this.btnSair.TabIndex = 0;
+            this.btnSair.UseVisualStyleBackColor = true;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // PanelLateral
             // 
@@ -77,72 +103,20 @@ namespace PetShop2023
             this.PanelLateral.Controls.Add(this.btnRaca);
             this.PanelLateral.Controls.Add(this.btnCliente);
             this.PanelLateral.Dock = System.Windows.Forms.DockStyle.Left;
-            this.PanelLateral.Location = new System.Drawing.Point(0, 46);
+            this.PanelLateral.Location = new System.Drawing.Point(0, 33);
             this.PanelLateral.Name = "PanelLateral";
-            this.PanelLateral.Size = new System.Drawing.Size(200, 480);
+            this.PanelLateral.Size = new System.Drawing.Size(200, 493);
             this.PanelLateral.TabIndex = 3;
             // 
-            // btnCliente
+            // panelSelecao
             // 
-            this.btnCliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCliente.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCliente.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnCliente.Location = new System.Drawing.Point(28, 64);
-            this.btnCliente.Name = "btnCliente";
-            this.btnCliente.Size = new System.Drawing.Size(140, 55);
-            this.btnCliente.TabIndex = 0;
-            this.btnCliente.Text = "Clientes";
-            this.btnCliente.UseVisualStyleBackColor = true;
-            this.btnCliente.Click += new System.EventHandler(this.btnCliente_Click);
-            // 
-            // btnRaca
-            // 
-            this.btnRaca.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRaca.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRaca.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnRaca.Location = new System.Drawing.Point(28, 125);
-            this.btnRaca.Name = "btnRaca";
-            this.btnRaca.Size = new System.Drawing.Size(140, 55);
-            this.btnRaca.TabIndex = 1;
-            this.btnRaca.Text = "Racas";
-            this.btnRaca.UseVisualStyleBackColor = true;
-            // 
-            // btnAnimal
-            // 
-            this.btnAnimal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAnimal.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAnimal.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnAnimal.Location = new System.Drawing.Point(28, 186);
-            this.btnAnimal.Name = "btnAnimal";
-            this.btnAnimal.Size = new System.Drawing.Size(140, 55);
-            this.btnAnimal.TabIndex = 2;
-            this.btnAnimal.Text = "Animais";
-            this.btnAnimal.UseVisualStyleBackColor = true;
-            // 
-            // btnServicos
-            // 
-            this.btnServicos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnServicos.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnServicos.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnServicos.Location = new System.Drawing.Point(28, 247);
-            this.btnServicos.Name = "btnServicos";
-            this.btnServicos.Size = new System.Drawing.Size(140, 55);
-            this.btnServicos.TabIndex = 3;
-            this.btnServicos.Text = "Servicos";
-            this.btnServicos.UseVisualStyleBackColor = true;
-            this.btnServicos.Click += new System.EventHandler(this.btnServicos_Click);
-            // 
-            // btnAgendamento
-            // 
-            this.btnAgendamento.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAgendamento.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgendamento.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnAgendamento.Location = new System.Drawing.Point(0, 308);
-            this.btnAgendamento.Name = "btnAgendamento";
-            this.btnAgendamento.Size = new System.Drawing.Size(197, 55);
-            this.btnAgendamento.TabIndex = 4;
-            this.btnAgendamento.Text = "Agendamentos";
-            this.btnAgendamento.UseVisualStyleBackColor = true;
+            this.panelSelecao.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.panelSelecao.BackgroundImage = global::PetShop2023.Properties.Resources.baixados__1_;
+            this.panelSelecao.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelSelecao.Location = new System.Drawing.Point(4, 6);
+            this.panelSelecao.Name = "panelSelecao";
+            this.panelSelecao.Size = new System.Drawing.Size(18, 55);
+            this.panelSelecao.TabIndex = 6;
             // 
             // btnInicio
             // 
@@ -158,52 +132,78 @@ namespace PetShop2023
             this.btnInicio.UseVisualStyleBackColor = false;
             this.btnInicio.Click += new System.EventHandler(this.btnInicio_Click);
             // 
+            // btnAgendamento
+            // 
+            this.btnAgendamento.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAgendamento.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgendamento.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnAgendamento.Location = new System.Drawing.Point(0, 308);
+            this.btnAgendamento.Name = "btnAgendamento";
+            this.btnAgendamento.Size = new System.Drawing.Size(197, 55);
+            this.btnAgendamento.TabIndex = 4;
+            this.btnAgendamento.Text = "Agendamentos";
+            this.btnAgendamento.UseVisualStyleBackColor = true;
+            // 
+            // btnServicos
+            // 
+            this.btnServicos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnServicos.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnServicos.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnServicos.Location = new System.Drawing.Point(28, 247);
+            this.btnServicos.Name = "btnServicos";
+            this.btnServicos.Size = new System.Drawing.Size(140, 55);
+            this.btnServicos.TabIndex = 3;
+            this.btnServicos.Text = "Servicos";
+            this.btnServicos.UseVisualStyleBackColor = true;
+            this.btnServicos.Click += new System.EventHandler(this.btnServicos_Click);
+            // 
+            // btnAnimal
+            // 
+            this.btnAnimal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAnimal.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAnimal.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnAnimal.Location = new System.Drawing.Point(28, 186);
+            this.btnAnimal.Name = "btnAnimal";
+            this.btnAnimal.Size = new System.Drawing.Size(140, 55);
+            this.btnAnimal.TabIndex = 2;
+            this.btnAnimal.Text = "Animais";
+            this.btnAnimal.UseVisualStyleBackColor = true;
+            // 
+            // btnRaca
+            // 
+            this.btnRaca.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRaca.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRaca.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnRaca.Location = new System.Drawing.Point(28, 125);
+            this.btnRaca.Name = "btnRaca";
+            this.btnRaca.Size = new System.Drawing.Size(140, 55);
+            this.btnRaca.TabIndex = 1;
+            this.btnRaca.Text = "Racas";
+            this.btnRaca.UseVisualStyleBackColor = true;
+            // 
+            // btnCliente
+            // 
+            this.btnCliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCliente.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCliente.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnCliente.Location = new System.Drawing.Point(28, 64);
+            this.btnCliente.Name = "btnCliente";
+            this.btnCliente.Size = new System.Drawing.Size(140, 55);
+            this.btnCliente.TabIndex = 0;
+            this.btnCliente.Text = "Clientes";
+            this.btnCliente.UseVisualStyleBackColor = true;
+            this.btnCliente.Click += new System.EventHandler(this.btnCliente_Click);
+            // 
             // panelCentral
             // 
             this.panelCentral.BackColor = System.Drawing.SystemColors.ControlLight;
             this.panelCentral.BackgroundImage = global::PetShop2023.Properties.Resources.baixados;
             this.panelCentral.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panelCentral.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelCentral.Location = new System.Drawing.Point(200, 46);
+            this.panelCentral.Location = new System.Drawing.Point(200, 33);
             this.panelCentral.Name = "panelCentral";
-            this.panelCentral.Size = new System.Drawing.Size(628, 480);
+            this.panelCentral.Size = new System.Drawing.Size(818, 493);
             this.panelCentral.TabIndex = 4;
-            // 
-            // panelSelecao
-            // 
-            this.panelSelecao.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.panelSelecao.BackgroundImage = global::PetShop2023.Properties.Resources.baixados__1_;
-            this.panelSelecao.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panelSelecao.Location = new System.Drawing.Point(4, 6);
-            this.panelSelecao.Name = "panelSelecao";
-            this.panelSelecao.Size = new System.Drawing.Size(18, 55);
-            this.panelSelecao.TabIndex = 6;
-            // 
-            // btnmin
-            // 
-            this.btnmin.BackgroundImage = global::PetShop2023.Properties.Resources.OIP__1_;
-            this.btnmin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnmin.FlatAppearance.BorderSize = 0;
-            this.btnmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnmin.Location = new System.Drawing.Point(660, 3);
-            this.btnmin.Name = "btnmin";
-            this.btnmin.Size = new System.Drawing.Size(39, 39);
-            this.btnmin.TabIndex = 3;
-            this.btnmin.UseVisualStyleBackColor = true;
-            this.btnmin.Click += new System.EventHandler(this.btnmin_Click);
-            // 
-            // btnSair
-            // 
-            this.btnSair.BackgroundImage = global::PetShop2023.Properties.Resources.th;
-            this.btnSair.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnSair.FlatAppearance.BorderSize = 0;
-            this.btnSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSair.Location = new System.Drawing.Point(705, 3);
-            this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(39, 39);
-            this.btnSair.TabIndex = 0;
-            this.btnSair.UseVisualStyleBackColor = true;
-            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // Form1
             // 
@@ -217,7 +217,7 @@ namespace PetShop2023
             this.Controls.Add(this.PainelLateral);
             this.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ad";

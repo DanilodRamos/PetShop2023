@@ -8,3 +8,4 @@ C:\Users\jacka\source\repos\PetShop2023\PetShop2023\obj\Debug\PetShop2023.csproj
 C:\Users\jacka\source\repos\PetShop2023\PetShop2023\obj\Debug\PetShop2023.exe
 C:\Users\jacka\source\repos\PetShop2023\PetShop2023\obj\Debug\PetShop2023.pdb
 C:\Users\jacka\source\repos\PetShop2023\PetShop2023\obj\Debug\PetShop2023.frmCadCliente.resources
+C:\Users\jacka\source\repos\PetShop2023\PetShop2023\bin\Debug\PetShop2023.exe.config
