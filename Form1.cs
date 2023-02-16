@@ -63,6 +63,25 @@ namespace PetShop2023
             panelCentral.Controls.Clear();
             panelSelecao.Top = btnInicio.Top;
         }
+
+        private void btnAnimal_Click(object sender, EventArgs e)
+        {
+            frmCadAnimal Animal = new frmCadAnimal();
+            Animal.TopLevel = false;
+            Animal.Dock = DockStyle.Fill;
+            panelCentral.Controls.Clear(); //limpa o painel
+            panelCentral.Controls.Add(Animal);//adiciona o form no painel
+            Animal.Show();//apareca
+
+            //aplica a posicao do eixo X do botao ao panelSelecao
+
+            panelSelecao.Top = btnCliente.Top;
+        }
+
+        private void btnRaca_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
