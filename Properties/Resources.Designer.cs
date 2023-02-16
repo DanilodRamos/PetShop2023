@@ -83,6 +83,16 @@ namespace PetShop2023.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap meuAvatar {
+            get {
+                object obj = ResourceManager.GetObject("meuAvatar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap OIP__1_ {
             get {
                 object obj = ResourceManager.GetObject("OIP (1)", resourceCulture);

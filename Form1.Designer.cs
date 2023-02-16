@@ -200,6 +200,7 @@ namespace PetShop2023
             this.panelCentral.BackgroundImage = global::PetShop2023.Properties.Resources.baixados;
             this.panelCentral.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panelCentral.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelCentral.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panelCentral.Location = new System.Drawing.Point(200, 33);
             this.panelCentral.Name = "panelCentral";
             this.panelCentral.Size = new System.Drawing.Size(818, 493);

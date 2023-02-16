@@ -177,5 +177,23 @@ namespace PetShop2023
             }
 
         }
+
+        private void btnFoto_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                openFileDialog1.Filter = "Fotos (*.jpg; *.png;) | *.jpg; *.png";
+                if (openFileDialog1.ShowDialog() == DialogResult.OK)
+                {
+                    cli_fotoPictureBox.Image = new Bitmap(openFileDialog1.FileName);
+                }
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Erro ao carregar o arquivo de imagem",
+                    "PetShop2023", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+           
+        }
     }
 }
