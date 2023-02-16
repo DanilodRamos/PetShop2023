@@ -171,6 +171,7 @@ namespace PetShop2023
             this.panelCentral.Name = "panelCentral";
             this.panelCentral.Size = new System.Drawing.Size(818, 493);
             this.panelCentral.TabIndex = 4;
+            this.panelCentral.Paint += new System.Windows.Forms.PaintEventHandler(this.panelCentral_Paint);
             // 
             // panelSelecao
             // 
@@ -181,6 +182,7 @@ namespace PetShop2023
             this.panelSelecao.Name = "panelSelecao";
             this.panelSelecao.Size = new System.Drawing.Size(18, 55);
             this.panelSelecao.TabIndex = 6;
+            this.panelSelecao.Paint += new System.Windows.Forms.PaintEventHandler(this.panelSelecao_Paint);
             // 
             // btnmin
             // 

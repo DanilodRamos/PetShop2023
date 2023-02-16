@@ -82,6 +82,16 @@ namespace PetShop2023
         {
 
         }
+
+        private void panelCentral_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panelSelecao_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
 

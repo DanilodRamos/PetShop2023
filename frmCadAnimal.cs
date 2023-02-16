@@ -44,5 +44,10 @@ namespace PetShop2023
         {
 
         }
+
+        private void ani_sexoComboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
