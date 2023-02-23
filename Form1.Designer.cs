@@ -42,33 +42,36 @@ namespace PetShop2023
             this.panelSelecao = new System.Windows.Forms.Panel();
             this.btnmin = new System.Windows.Forms.Button();
             this.btnSair = new System.Windows.Forms.Button();
+            this.performanceCounter1 = new System.Diagnostics.PerformanceCounter();
             this.PainelTopo.SuspendLayout();
             this.PanelLateral.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.performanceCounter1)).BeginInit();
             this.SuspendLayout();
             // 
             // PainelLateral
             // 
             this.PainelLateral.Dock = System.Windows.Forms.DockStyle.Right;
-            this.PainelLateral.Location = new System.Drawing.Point(1018, 0);
+            this.PainelLateral.Location = new System.Drawing.Point(974, 0);
             this.PainelLateral.Name = "PainelLateral";
-            this.PainelLateral.Size = new System.Drawing.Size(10, 526);
+            this.PainelLateral.Size = new System.Drawing.Size(54, 526);
             this.PainelLateral.TabIndex = 0;
             // 
             // PainelTopo
             // 
-            this.PainelTopo.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.PainelTopo.BackColor = System.Drawing.Color.Blue;
             this.PainelTopo.Controls.Add(this.btnmin);
             this.PainelTopo.Controls.Add(this.btnSair);
             this.PainelTopo.Dock = System.Windows.Forms.DockStyle.Top;
             this.PainelTopo.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.PainelTopo.Location = new System.Drawing.Point(0, 0);
             this.PainelTopo.Name = "PainelTopo";
-            this.PainelTopo.Size = new System.Drawing.Size(1018, 33);
+            this.PainelTopo.Size = new System.Drawing.Size(974, 29);
             this.PainelTopo.TabIndex = 1;
             this.PainelTopo.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // PanelLateral
             // 
+            this.PanelLateral.BackColor = System.Drawing.Color.Blue;
             this.PanelLateral.Controls.Add(this.panelSelecao);
             this.PanelLateral.Controls.Add(this.btnInicio);
             this.PanelLateral.Controls.Add(this.btnAgendamento);
@@ -77,9 +80,9 @@ namespace PetShop2023
             this.PanelLateral.Controls.Add(this.btnRaca);
             this.PanelLateral.Controls.Add(this.btnCliente);
             this.PanelLateral.Dock = System.Windows.Forms.DockStyle.Left;
-            this.PanelLateral.Location = new System.Drawing.Point(0, 33);
+            this.PanelLateral.Location = new System.Drawing.Point(0, 29);
             this.PanelLateral.Name = "PanelLateral";
-            this.PanelLateral.Size = new System.Drawing.Size(200, 493);
+            this.PanelLateral.Size = new System.Drawing.Size(200, 497);
             this.PanelLateral.TabIndex = 3;
             // 
             // btnInicio
@@ -167,9 +170,9 @@ namespace PetShop2023
             this.panelCentral.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panelCentral.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelCentral.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panelCentral.Location = new System.Drawing.Point(200, 33);
+            this.panelCentral.Location = new System.Drawing.Point(200, 29);
             this.panelCentral.Name = "panelCentral";
-            this.panelCentral.Size = new System.Drawing.Size(818, 493);
+            this.panelCentral.Size = new System.Drawing.Size(774, 497);
             this.panelCentral.TabIndex = 4;
             this.panelCentral.Paint += new System.Windows.Forms.PaintEventHandler(this.panelCentral_Paint);
             // 
@@ -190,7 +193,8 @@ namespace PetShop2023
             this.btnmin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnmin.FlatAppearance.BorderSize = 0;
             this.btnmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnmin.Location = new System.Drawing.Point(932, 4);
+            this.btnmin.ForeColor = System.Drawing.Color.Transparent;
+            this.btnmin.Location = new System.Drawing.Point(878, 0);
             this.btnmin.Name = "btnmin";
             this.btnmin.Size = new System.Drawing.Size(39, 27);
             this.btnmin.TabIndex = 3;
@@ -199,11 +203,11 @@ namespace PetShop2023
             // 
             // btnSair
             // 
-            this.btnSair.BackgroundImage = global::PetShop2023.Properties.Resources.th;
+            this.btnSair.BackgroundImage = global::PetShop2023.Properties.Resources.reject1;
             this.btnSair.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnSair.FlatAppearance.BorderSize = 0;
             this.btnSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSair.Location = new System.Drawing.Point(977, 4);
+            this.btnSair.Location = new System.Drawing.Point(934, 0);
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(39, 27);
             this.btnSair.TabIndex = 0;
@@ -229,6 +233,8 @@ namespace PetShop2023
             this.Load += new System.EventHandler(this.Form1_Load);
             this.PainelTopo.ResumeLayout(false);
             this.PanelLateral.ResumeLayout(false);
+            System.ComponentModel.ISupportInitialize performanceCounter11 = ((System.ComponentModel.ISupportInitialize)(this.performanceCounter1));
+            performanceCounter11.EndInit();
             this.ResumeLayout(false);
 
         }
@@ -248,6 +254,7 @@ namespace PetShop2023
         private System.Windows.Forms.Button btnmin;
         private System.Windows.Forms.Button btnInicio;
         private System.Windows.Forms.Panel panelSelecao;
+        private System.Diagnostics.PerformanceCounter performanceCounter1;
     }
 }
 

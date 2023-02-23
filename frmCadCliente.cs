@@ -195,5 +195,10 @@ namespace PetShop2023
             }
            
         }
+
+        private void bindingNavigatorMoveNextItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
